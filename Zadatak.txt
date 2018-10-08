@@ -1,0 +1,18 @@
+ZADATAK:
+	Korišćenjem HTML i Sass tehnologija realizovati HTML stranicu prikazanu na slikama.
+	Implementirati sledeće zahteve:
+	1.	Sass kod modularizovati minimalno tako da se korišćene promenljive i mixini pišu u posebnim
+		  sass datotekama koje se uključuju u glavni fajl.
+	2.	Boje, fontove kao i ostale korisne vrednosti (po sopstvenoj proceni) izdvojiti u sass promenljive.
+	3.	Realizovati responsive verzije stranice za veliki i mali ekran.
+  4.  Koristiti git za verzionisanje tokom izrade zadatka. u lokalnom git repozitorijumu kreirati
+      .gitignore datoteku koja odgovara ovom tipu projekta.
+
+BOJE:
+	Teget: #222831
+	Žuta: #f9be37
+	Svetlo siva: #f8faff
+
+WEB FONTOVI:
+	Roboto (normal)
+	Playfair Display (normal i bold)

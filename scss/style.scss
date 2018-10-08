@@ -1,0 +1,50 @@
+@import 'vars';
+@import 'mixins';
+
+@include main;
+
+section {
+	width: 100%;
+	padding: 3em 15%;
+	@include clearfix;
+}
+
+header {
+    width: 100%;
+    height: 4em;
+    
+    nav {
+        width: 95%;
+        height: 100%;
+        background-color: $head-Foot;
+        float: left;
+        ul{
+            list-style: none;
+            li{
+                
+                float: right;
+                padding: 1.3em 4em;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .menu {
+        width:5%;
+        height: 100%;
+        float: right;
+        background-color: $orange;
+        img {
+            width: 60%;
+            padding: .4em .4em;
+            margin: .7em;
+            height: auto;
+        }
+    }   
+}
+
