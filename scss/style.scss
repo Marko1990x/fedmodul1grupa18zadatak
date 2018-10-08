@@ -258,6 +258,65 @@ h4{
 }
 
 
+.calendar{
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	background: $teget;
+	padding: 2em;
+	img{
+		float: left;
+		width: 5%;
+	}
+
+	p{
+		color: white;
+		text-align: left;
+		text-indent: 3em;
+		
+	}
+
+	.under{
+		margin: 3em;
+	}
+
+
+}
+
+.under{
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	background: white;
+	padding: 0;
+	img{
+		float: left;
+		width: 10%;
+	}
+
+	p{
+		color: black;
+		text-align: left;
+		text-indent: 15em;
+		
+	}
+
+	.under{
+		margin: 3em;
+	}
+
+	
+
+}
+
+
+.desni{
+	float: right;
+	text-align: left;
+	position: relative;
+	transform: translate(50%, -120%);
+}
+
 
 
 
