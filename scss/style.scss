@@ -200,3 +200,90 @@ header {
 	
 }
 
+
+
+
+.contact {
+	background: $teget;
+	.mapHolder {
+		float: left;
+		margin: 1em;
+		width: 30%;
+		iframe {
+			width: 100%;
+		}
+	}
+	.textcontact{
+		float: left;
+		margin-left: 15em;
+		margin-top: 2em;
+		nav{
+			ul{
+				li{
+					display: inline-block;
+				}
+			}
+		}
+		
+	}
+
+	div{
+		img{
+			width: 30%;
+			height: auto;
+		}
+	}
+
+	
+
+
+}
+
+
+h3, h4{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h3{
+	color: $Zuta;
+}
+
+h4{
+	color: white;
+}
+
+.x{
+	color: yellow;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    	.contact {
+		.mapHolder {
+			width: 50%;
+			float: none;
+			margin: 1em auto;
+		}
+		form {
+			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 800px){
+    	.contact {
+		.mapHolder {
+			width: 80%;
+		}
+		form {
+			margin: 1em 0;
+			.contactInput, .contactInput[type="text"] {
+				width: 96%;
+				float: none;
+			}
+		}
+	}
+}
