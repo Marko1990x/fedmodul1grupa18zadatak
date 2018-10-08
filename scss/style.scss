@@ -90,4 +90,32 @@ header {
 
 		
 	}
+
+	
+}
+
+.forma{
+	border: 2px solid black;
+	width: 50%;
+	padding: 0.5em;
+	background: white;
+	float: right;
+
+	.txtforma{
+		padding-right: 9em;
+	}
+
+	.inputbutton{
+		margin: 1em 0 1em 0;
+		height: 2em;
+	}
+
+	.search{
+		height: 2em;
+		width: 5em;
+		color: white;
+		background: orange;
+
+	}
+
 }
