@@ -64,6 +64,7 @@ header {
 	height: auto;
 	background: url('../img/main.jpg');
 	background-size: cover;
+	margin-bottom: 5em;
 
 	h1, h2 {
 		color: #fff;
@@ -95,6 +96,8 @@ header {
 }
 
 .forma{
+
+
 	border: 2px solid black;
 	width: 50%;
 	padding: 0.5em;
@@ -119,3 +122,81 @@ header {
 	}
 
 }
+
+.catalog{
+
+
+	margin-top: 5em 10em 5em 10em;
+
+	background-color: white;
+	text-align: center;
+	width: 100%;
+    .column{
+        width: 25%;
+        float: left;
+        text-align: center;
+
+        img{
+			width: 50%;
+			height: auto;
+			
+        }
+        
+        a{
+            background-color: $main_red;  //boja pozadine
+            padding: 0.5em 3em;  // siri element
+            color: white;   //text boja
+            text-transform: uppercase;
+            text-decoration: none;
+		}
+
+		.topparagraf{
+			font-weight: bold;
+			font-size: 1em;
+			text-align: center;
+		}
+
+		.bottomp{
+			text-align: left;
+			margin-top: 2em;
+		}
+	}
+
+}
+
+.slikatext{
+	width: 100%;
+	height: auto;
+
+	margin: 5em 0 5em 0;
+	
+
+
+	.slikaleft{
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+
+	.textslika{
+
+		float: right;
+	}
+
+	.txt1{
+		font-weight: bold;
+		text-align: left;
+		text-indent: 2em;
+		font-size: 3em;
+	}
+
+	.lorem{
+		margin-top: 5em;
+		text-indent: 2em;
+		text-align: left;
+		margin-left: 5em;
+	}
+
+	
+}
+
