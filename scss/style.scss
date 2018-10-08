@@ -11,7 +11,7 @@ section {
 header {
     width: 100%;
 	height: 4em;
-	background: grey;
+	background: $teget;
 	
 	.headerleft{
 		float: left;
@@ -19,14 +19,14 @@ header {
 		width: 20%;
 		font-size: 2em;
 		margin-top: 0.5em;
-		color: white;
+		color: $svetlosiva;
 
 	}
     
     nav {
         width: 80%;
         height: 100%;
-        background-color: $head-Foot;
+        background-color: $teget;
         float: right;
         ul{
             list-style: none;
@@ -36,7 +36,7 @@ header {
                 padding: 1em 1em;
                 a{
                     text-decoration: none;
-                    color: #fff;
+                    color: $svetlosiva;
                 }
                 &:hover {
                     text-decoration: underline;
@@ -48,7 +48,7 @@ header {
         width:5%;
         height: 100%;
         float: right;
-        background-color: $orange;
+        background-color: $Zuta;
         img {
             width: 60%;
             padding: .4em .4em;
@@ -67,7 +67,7 @@ header {
 	margin-bottom: 5em;
 
 	h1, h2 {
-		color: #fff;
+		color: $svetlosiva;
 		font-weight: normal;
 		//background: rgba(55, 66, 73, 0.6);
 		text-align: left;
@@ -101,7 +101,7 @@ header {
 	border: 2px solid black;
 	width: 50%;
 	padding: 0.5em;
-	background: white;
+	background: $svetlosiva;
 	float: right;
 
 	.txtforma{
@@ -116,8 +116,8 @@ header {
 	.search{
 		height: 2em;
 		width: 5em;
-		color: white;
-		background: orange;
+		color: $svetlosiva;
+		background: $Zuta;
 
 	}
 
@@ -128,7 +128,7 @@ header {
 
 	margin-top: 5em 10em 5em 10em;
 
-	background-color: white;
+	background-color:$svetlosiva;
 	text-align: center;
 	width: 100%;
     .column{
@@ -143,9 +143,9 @@ header {
         }
         
         a{
-            background-color: $main_red;  //boja pozadine
-            padding: 0.5em 3em;  // siri element
-            color: white;   //text boja
+            background-color: red;  
+            padding: 0.5em 3em;  
+            color: $svetlosiva;  
             text-transform: uppercase;
             text-decoration: none;
 		}
@@ -250,11 +250,11 @@ h3{
 }
 
 h4{
-	color: white;
+	color: $svetlosiva;
 }
 
 .x{
-	color: yellow;
+	color: $Zuta;
 }
 
 
@@ -270,7 +270,7 @@ h4{
 	}
 
 	p{
-		color: white;
+		color: $svetlosiva;
 		text-align: left;
 		text-indent: 3em;
 		
@@ -287,7 +287,7 @@ h4{
 	width: 60%;
 	text-align: center;
 	margin: auto;
-	background: white;
+	background: $svetlosiva;
 	padding: 0;
 	img{
 		float: left;
@@ -321,28 +321,8 @@ h4{
 
 
 @media screen and (max-width: 1200px){
-    	.contact {
-		.mapHolder {
-			width: 50%;
-			float: none;
-			margin: 1em auto;
-		}
-		form {
-			width: 100%;
-		}
-	}
+    	
 }
 @media screen and (max-width: 800px){
-    	.contact {
-		.mapHolder {
-			width: 80%;
-		}
-		form {
-			margin: 1em 0;
-			.contactInput, .contactInput[type="text"] {
-				width: 96%;
-				float: none;
-			}
-		}
-	}
+    
 }
